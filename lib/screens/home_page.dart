@@ -14,12 +14,12 @@ class HomePage extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(actions: [
-        IconButton(onPressed: userSignOut, icon: Icon(Icons.logout))
+        IconButton(onPressed: userSignOut, icon: const Icon(Icons.logout))
       ]),
       body: Center(
         child: Text(
           'Welcome $user',
-          style: TextStyle(fontSize: 15),
+          style: const TextStyle(fontSize: 15),
         ),
       ),
     );

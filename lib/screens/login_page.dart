@@ -29,7 +29,7 @@ class LoginPage extends StatelessWidget {
       showDialog(
           context: context,
           builder: ((context) {
-            return SpinKitFadingCircle(
+            return const SpinKitFadingCircle(
               color: Colors.white,
               size: 50,
             );
@@ -53,7 +53,7 @@ class LoginPage extends StatelessWidget {
         children: [
           Container(
             alignment: Alignment.topLeft,
-            margin: EdgeInsets.symmetric(horizontal: 40.0),
+            margin: const EdgeInsets.symmetric(horizontal: 40.0),
             child: const Text(
               'LOGIN',
               style: TextStyle(
@@ -70,7 +70,7 @@ class LoginPage extends StatelessWidget {
           MyTextField(controller: passWord, label: 'Passworld' , obscureText: true,),
           Container(
             alignment: Alignment.centerRight,
-            margin: EdgeInsets.symmetric(horizontal: 40.0, vertical: 10.0),
+            margin:const EdgeInsets.symmetric(horizontal: 40.0, vertical: 10.0),
             child: const Text(
               'Forget your password?',
               style: TextStyle(

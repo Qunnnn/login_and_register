@@ -59,8 +59,8 @@ class RegisterPage extends StatelessWidget {
           ),
           Container(
             alignment: Alignment.topLeft,
-            margin: EdgeInsets.symmetric(horizontal: 40.0),
-            child: Text(
+            margin: const EdgeInsets.symmetric(horizontal: 40.0),
+            child: const Text(
               'REGISTER',
               style: TextStyle(
                 fontFamily: 'Lora',
@@ -90,13 +90,13 @@ class RegisterPage extends StatelessWidget {
             text: 'Sign Up',
           ),
           Container(
-            margin: EdgeInsets.symmetric(horizontal: 40.0, vertical: 15.0),
+            margin: const EdgeInsets.symmetric(horizontal: 40.0, vertical: 15.0),
             alignment: Alignment.centerRight,
             child: GestureDetector(
               onTap: () => {
                 Navigator.pop(context),
               },
-              child: Text(
+              child: const Text(
                 'Already have an account? Sign in',
                 style: TextStyle(
                   color: Color(0xFF2661FA),

@@ -9,7 +9,7 @@ class MyTextField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.symmetric(horizontal: 40.0),
+      margin: const EdgeInsets.symmetric(horizontal: 40.0),
       child: TextFormField(
         obscuringCharacter: '*',
         autofocus: false,

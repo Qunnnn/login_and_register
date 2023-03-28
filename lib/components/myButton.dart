@@ -8,17 +8,17 @@ class MyButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.symmetric(horizontal: 35.0),
+      margin:const EdgeInsets.symmetric(horizontal: 35.0),
       alignment: Alignment.centerRight,
       child: ElevatedButton(
           style: ElevatedButton.styleFrom(
               elevation: 0.0,
-              backgroundColor: Color(0xFFFFAF65),
+              backgroundColor: const Color(0xFFFFAF65),
               fixedSize: const Size(250, 50),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(80.0),
               )),
-          child:  Text(
+          child:Text(
             text,
             style: TextStyle(
               fontFamily: 'Lora',
