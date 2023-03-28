@@ -4,7 +4,7 @@ import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:login_and_register/components/background.dart';
 import 'package:login_and_register/components/myButton.dart';
 import 'package:login_and_register/components/myTextField.dart';
-import 'package:login_and_register/screens/registerPage.dart';
+import 'package:login_and_register/screens/register_page.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
